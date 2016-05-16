@@ -1,2 +1,0 @@
-# yangszz.github.io
-blog
