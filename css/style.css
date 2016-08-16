@@ -58,11 +58,11 @@ h3 {font-weight: bold; font-size: 14px}
 /*---SECTION TITLES STUFF---*/
 /* ------------------------*/
 h2.sectionHead {
-	clear: both;
+	clear: both; 
 	font:bold 20px/12px 'verdana',sans-serif;
 	margin: 60px -60px;
-	border-left: 52px solid #BD4437;
-	color: #090671;
+	border-left: 52px solid #88b02b;
+	color: #88b02b;
 	padding:1px 0 0 8px;
 	letter-spacing: -2px;
 	text-transform: uppercase;
@@ -106,16 +106,18 @@ h2#contact:before {background-position: right bottom;}
 	position: relative; 
 	border-width: 0 1px 1px; 
 	border-color: #fff #f3f3f3 #e8e8e8;
-	line-height: 1.6em;
+	line-height: 2em;
 }
 #bio iframe {margin: 0 auto; display: block;}
 #bio p a {
 	text-decoration: none;
 	border: none;
-	background: #444;
+	background: #ff612e;
 	color: #fff;
 	padding: 3px 5px;
 	margin: -3px 0 0 0;
+	font-size: 18px;
+    font-weight: bold;
 }
 #bio p a:hover {text-decoration:none; color: #fff; background: #222;}
 
@@ -138,6 +140,7 @@ h2#contact:before {background-position: right bottom;}
 #twitterIcon {background-position: -90px 0;}
 #mySpaceIcon {background-position: -120px 0;}
 #dribbbleIcon {background-position: -150px 0;}
+#email{background-position:0 -1px;}
 #gplusIcon {background-position: -180px 0;}
 #facebookIcon {background-position: -210px 0}
 #flickrIcon {background-position: -240px 0;}
@@ -150,6 +153,7 @@ h2#contact:before {background-position: right bottom;}
 #twitterIcon:hover {background-position: -90px -30px;}
 #mySpaceIcon:hover {background-position: -120px -30px;}
 #dribbbleIcon:hover {background-position: -150px -30px;}
+#email:hover{background-position:0 -31px;}
 #gplusIcon:hover {background-position: -180px -30px;}
 #facebookIcon:hover {background-position: -210px -30px;}
 #flickrIcon:hover {background-position: -240px -30px;}
@@ -160,7 +164,7 @@ h2#contact:before {background-position: right bottom;}
 /*---RECOMMENDATIONS STUFF---*/
 /* -------------------------*/
 ul#recommends li {margin: 0 0 30px 0; clear: both;}
-ul#recommends li > h3 {background: #fafafa; color: #ccc; padding-left: 5px; line-height: 25px; margin:0 0 30px -5px;}
+ul#recommends li > h3 {background: #369b26; color: #eaeab2; padding-left: 5px; line-height: 25px; margin:0 0 30px -5px;}
 
 /* -------------------------*/
 /*---AS SEEN ON STUFF------*/
@@ -176,14 +180,14 @@ ul#skills.ready {background: none;}
 ul#skills li {
 	position: relative;
 	right: 100%;
-	background-color: #1FA2A9;
-	color: #fff;
-	font:bold 9px/20px sans-serif;
-	letter-spacing: 1px;
-	margin-bottom: 3px;
-	padding:3px 1.1428571428571428% 0;
-	text-transform: uppercase;
-	z-index: 1;
+	background-color: #92246a;
+	color: #f8f8f8;
+    font:bold 14px/20px sans-serif;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+    padding:3px 1.1428571428571428% 0;
+    text-transform: uppercase;
+    z-index: 1;
 }
 ul#skills li:after {
 	content: "";
@@ -193,7 +197,7 @@ ul#skills li:after {
 	line-height: 26px;
 	width: 50px;
 	text-align: right;
-	color: #CCD2D0;
+	color: #f8f8f8;
 }
 ul#skills li.s100:after {content: "100%";}
 ul#skills li.s90:after {content: "90%";}
@@ -208,7 +212,7 @@ ul#skills li.s10:after {content: "10%";}
 
 ul#skills li span {display: none;}
 
-ul#skills li:hover {background: #222;}
+ul#skills li:hover {background: #00abb1;}
 
 li.s100 {width: 97.71428571428571%;}
 li.s90 {width: 87.71428571428571%;}
@@ -216,7 +220,7 @@ li.s80 {width: 77.71428571428571%;}
 li.s70 {width: 67.71428571428571%;}
 li.s60 {width: 57.714285714285715%;}
 li.s50 {width: 47.714285714285715%;}
-li.s40 {width: 37.714285714285715%;}
+li.s40 {width: 45.714285714285715%;}
 li.s30 {width: 27.714285714285715%;}
 li.s20 {width: 17.714285714285715%;}
 li.s10 {width: 7.714285714285714%;}
@@ -233,22 +237,23 @@ li.s10 {width: 7.714285714285714%;}
 #contactform textarea {float: none; width: 250px; padding: 8px; margin: 5px 0 10px 0; background: #fcfcfc; border: 1px solid #eee; border-radius: 8px; color: #666; font-size: 12px;}
 #contactform textarea {height: 150px; width: 380px; margin-bottom: 20px;}
 #contactform input[type="submit"] {
-	width: inherit;
+	width: inherit; 
 	float: right;
-	clear: both;
-	color: #fff;
+	clear: both; 
+	color: #fff; 
 	border:none;
 	cursor: pointer;
 	line-height: 30px;
 	font-size: 10px;
 	text-transform: uppercase;
 	height: 30px;
-	padding: 0 15px;
+	padding: 0 15px; 
 	margin: 0;
-	background: #178E94;
+	background:#b62d37;
 	border-radius:3px;
+	font-weight: bold;
 } 
-#contactform input[type="submit"]:hover {background: #000;}
+#contactform input[type="submit"]:hover {background: #88b02b;font-weight: bold;}
 .required {color: red;}
 #required {float: left; margin-top: 10px; color: #bbb; display: none;}
 
