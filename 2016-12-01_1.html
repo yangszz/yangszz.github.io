@@ -28,6 +28,7 @@
 由于需要判断小数位数,所以需要转换为string   , 但是发现double长度到一定位数,是用**科学计数法**表示的
 转换成String就不是想要的东西, 网络上也没有找到想要的东西 . 
 下面的方法可以使用
+'''
 private int getNumberDecimalDigits(Double balance) {
         int dcimalDigits = 0;
         String balanceStr = new BigDecimal(balance).toString();
@@ -37,7 +38,7 @@ private int getNumberDecimalDigits(Double balance) {
         }
         return dcimalDigits;
     }
-
+'''
 <!-- markdown end -->
 </div>
 <div class="entry" id="main">
@@ -45,6 +46,7 @@ private int getNumberDecimalDigits(Double balance) {
 <p>由于需要判断小数位数,所以需要转换为string   , 但是发现double长度到一定位数,是用<strong>科学计数法</strong>表示的
 转换成String就不是想要的东西, 网络上也没有找到想要的东西 . 
 下面的方法可以使用
+'''
 private int getNumberDecimalDigits(Double balance) {
         int dcimalDigits = 0;
         String balanceStr = new BigDecimal(balance).toString();
@@ -53,7 +55,8 @@ private int getNumberDecimalDigits(Double balance) {
             dcimalDigits = balanceStr.length() - 1 - indexOf;
         }
         return dcimalDigits;
-    }</p>
+    }
+'''</p>
 <!-- content end -->
 </div>
 <br>
