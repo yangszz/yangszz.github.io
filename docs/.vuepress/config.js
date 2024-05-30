@@ -5,5 +5,9 @@ import { defineUserConfig } from 'vuepress'
 export default defineUserConfig({
   bundler: viteBundler(),
   theme: defaultTheme(),
+  title: '你好， VuePress',
+
 })
+
+
 

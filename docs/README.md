@@ -1,3 +1,5 @@
+[[toc]]
+
 # Hello VuePress
 
 <!-- 相对路径 -->
