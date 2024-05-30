@@ -1,24 +1,15 @@
-[[toc]]
-
-# Hello VuePress
-
-## [aa](../reference/config.md)
-### [bb](../reference/config.md)
-## Hello VuePress
-## Hello VuePress
-## Hello VuePress
-
-<!-- 相对路径 -->
-
-[首页](../README.md)  
-[配置参考](../reference/config.md)  
-[快速上手](../getting-started.md)
-
-<!-- 绝对路径 -->
-
-[指南 > 介绍](/zh/guide/introduction.md)  
-[配置参考 > markdown.links](/zh/reference/config.md#links)
-
-<!-- URL -->
-
-[GitHub](https://github.com)
+---
+home: true
+config:
+  -
+    type: hero
+    background: tint-plate
+    tintPlate: 0
+    bannerMask:
+      light: 0.1
+      dark: 0.3
+    hero:
+      name: yangszz
+      tagline: null
+      text: 稍后等于永不！（Later equals never）- 勒布朗
+---
