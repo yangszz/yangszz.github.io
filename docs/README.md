@@ -2,6 +2,12 @@
 
 # Hello VuePress
 
+## [aa](../reference/config.md)
+### [bb](../reference/config.md)
+## Hello VuePress
+## Hello VuePress
+## Hello VuePress
+
 <!-- 相对路径 -->
 
 [首页](../README.md)  
