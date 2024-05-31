@@ -20,10 +20,27 @@ export default defineUserConfig({
         notes: {
             link: '/', dir: 'notes', notes: [
                 {
-                    dir: 'rust',
+                    dir: 'theme/guide',
+                    link: '/guide/',
+                    sidebar: [
+                        {
+                            text: '快速开始',
+                            collapsed: false,
+                            icon: 'carbon:idea',
+                            items: ['介绍', '安装与使用'],
+                        },
+                    ],
+                },
+                {
+                    dir: 'dev/rust',
                     link: '/rust/',
                     sidebar: [
-                        {text: '简介', items: ['rust']}
+                        {
+                            text: 'rust学习',
+                            collapsed: false,
+                            icon: 'carbon:idea',
+                            items: ['rust','rust2']
+                        }
                     ]
                 }
             ]
