@@ -26,5 +26,3 @@ export default defineUserConfig({
 
 ### 444
 
-![图片](/images/5月安排.png)
-
